@@ -29,7 +29,7 @@ header .logo {
     color: var(--vermelho);
     font-family: "Arial Black", Times;
     font-size: 40px;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 header nav a {
@@ -54,6 +54,11 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 70%;
+    padding: 15px;
 }
 
 .filme-principal .titulo {
@@ -85,4 +90,10 @@ header nav a:hover {
 
 .botao svg {
     margin-right: 5px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
