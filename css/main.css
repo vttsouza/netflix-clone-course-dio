@@ -92,8 +92,17 @@ header nav a:hover {
     margin-right: 5px;
 }
 
+
+/* CARROSEL */
+
 .box-filme {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes .titulo-carrosel {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 25px 10px 8px 15px;
 }
