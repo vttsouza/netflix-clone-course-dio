@@ -56,14 +56,33 @@ header nav a:hover {
     align-items: flex-start;
 }
 
+.filme-principal .titulo {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    margin-top: 15%;
+}
+
 .filme-principal .descricao {
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.filme-principal .titulo {
-    font-size: 40px;
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
 }
 
-.filme-principal .botoes {
-    display: flex;
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao svg {
+    margin-right: 5px;
 }
